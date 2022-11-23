@@ -75,13 +75,13 @@
   dependencies:
     "@openapi-contrib/openapi-schema-to-json-schema" "^3.0.0"
 
-"@asyncapi/parser@^1.14.0":
-  version "1.14.1"
-  resolved "https://registry.npmjs.org/@asyncapi/parser/-/parser-1.14.1.tgz#2f474f9d5ba1ce5b144e487fd956c0809ab11a9e"
-  integrity sha512-ZsNQc/HXmGDrxkYBRrGou/JrWn+FLHYdQQI0WPOylSL+LNfaWtLlIcYwbcj61l+jLLFqIe0DK/yZbmjxm0ydqw==
+"@asyncapi/parser@^1.17.0":
+  version "1.17.1"
+  resolved "https://registry.npmjs.org/@asyncapi/parser/-/parser-1.17.1.tgz#1cb411dbb3170f50b0cac5e76a732e49bec76da6"
+  integrity sha512-11MBblNWoY6oGcWhlQq6BS4YEm7Q9G2u2Xb2t1jXPMsL8Twe5gJeO5/KCqx3mDvZxxi0+oLA1dLL6FzwmCecuA==
   dependencies:
     "@apidevtools/json-schema-ref-parser" "^9.0.6"
-    "@asyncapi/specs" "^2.13.0"
+    "@asyncapi/specs" "^4.0.0"
     "@fmvilas/pseudo-yaml-ast" "^0.3.1"
     ajv "^6.10.1"
     js-yaml "^3.13.1"
@@ -90,24 +90,27 @@
     node-fetch "^2.6.0"
     tiny-merge-patch "^0.1.2"
 
-"@asyncapi/react-component@1.0.0-next.34":
-  version "1.0.0-next.34"
-  resolved "https://registry.npmjs.org/@asyncapi/react-component/-/react-component-1.0.0-next.34.tgz#8922fa7f315730694ce1e5ab95a9a9307a39931a"
-  integrity sha512-4ZkF3vsKjaAaZ2qIPLfkmw73vCrop+qF2krPtAFSmk4wy8B+uMRK9bsObrf+QUSj4gSIQHezznMIZKAU91JTQw==
+"@asyncapi/react-component@1.0.0-next.44":
+  version "1.0.0-next.44"
+  resolved "https://registry.npmjs.org/@asyncapi/react-component/-/react-component-1.0.0-next.44.tgz#c5cb7747493f0f3e4df06a56d87a9c4c7f165eb7"
+  integrity sha512-kKV6LQktwD4Q46arAUABNBQpkKS7VDgnXUr8j0eKjhYl3eVQVuTKAP5MvqQPIIYRSIzc+s8sZhO3IMmK0MqjCA==
   dependencies:
     "@asyncapi/avro-schema-parser" "^0.3.0"
     "@asyncapi/openapi-schema-parser" "^2.0.0"
-    "@asyncapi/parser" "^1.14.0"
+    "@asyncapi/parser" "^1.17.0"
     highlight.js "^10.7.2"
     isomorphic-dompurify "^0.13.0"
-    marked "^4.0.10"
-    openapi-sampler "^1.1.0"
-    use-resize-observer "^7.0.0"
+    marked "^4.0.14"
+    openapi-sampler "^1.2.1"
+    react-icons "^4.4.0"
+    use-resize-observer "^8.0.0"
 
-"@asyncapi/specs@^2.13.0":
-  version "2.13.0"
-  resolved "https://registry.npmjs.org/@asyncapi/specs/-/specs-2.13.0.tgz#c0f46d00e8a67c1c9ea445eb3e8bca90f7dca795"
-  integrity sha512-X0OrxJtzwRH8iLILO/gUTDqjGVPmagmdlgdyuBggYAoGXzF6ZuAws3XCLxtPNve5eA/0V/1puwpUYEGekI22og==
+"@asyncapi/specs@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/@asyncapi/specs/-/specs-4.0.0.tgz#10efdb67d22ad8e10066bf8e25051e941f1cef6f"
+  integrity sha512-d+8cWowmHXtyTVlKg8MFUNJ4ELT0uEzeAMJbI9V6xxljUMmhxeCk1qKhtGqwSir4J2QyozNdRLTl6qopk0KvqA==
+  dependencies:
+    "@types/json-schema" "^7.0.11"
 
 "@azure/abort-controller@^1.0.0":
   version "1.0.2"
@@ -6276,7 +6279,7 @@
   dependencies:
     "@types/json-schema" "*"
 
-"@types/json-schema@*", "@types/json-schema@^7.0.4", "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.6", "@types/json-schema@^7.0.7", "@types/json-schema@^7.0.8", "@types/json-schema@^7.0.9":
+"@types/json-schema@*", "@types/json-schema@^7.0.11", "@types/json-schema@^7.0.4", "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.6", "@types/json-schema@^7.0.7", "@types/json-schema@^7.0.8", "@types/json-schema@^7.0.9":
   version "7.0.11"
   resolved "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
   integrity sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==
@@ -6557,9 +6560,9 @@
   integrity sha512-ewFXqrQHlFsgc09MK5jP5iR7vumV/BYayNC6PgJO2LPe8vrnNFyjQjSppfEngITi0qvfKtzFvgKymGheFM9UOA==
 
 "@types/react-dom@*", "@types/react-dom@^17":
-  version "17.0.15"
-  resolved "https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.15.tgz#f2c8efde11521a4b7991e076cb9c70ba3bb0d156"
-  integrity sha512-Tr9VU9DvNoHDWlmecmcsE5ZZiUkYx+nKBzum4Oxe1K0yJVyBlfbq7H3eXjxXqJczBKqPGq3EgfTru4MgKb9+Yw==
+  version "17.0.18"
+  resolved "https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.18.tgz#8f7af38f5d9b42f79162eea7492e5a1caff70dc2"
+  integrity sha512-rLVtIfbwyur2iFKykP2w0pl/1unw26b5td16d5xMgp7/yjTHomkyxPYChFoCr/FtEX1lN9wY6lFj1qvKdS5kDw==
   dependencies:
     "@types/react" "^17"
 
@@ -12072,11 +12075,6 @@ event-source-polyfill@1.0.25:
   resolved "https://registry.npmjs.org/event-source-polyfill/-/event-source-polyfill-1.0.25.tgz#d8bb7f99cb6f8119c2baf086d9f6ee0514b6d9c8"
   integrity sha512-hQxu6sN1Eq4JjoI7ITdQeGGUN193A2ra83qC0Ltm9I2UJVAten3OFVN6k5RX4YWeCS0BoC8xg/5czOCIHVosQg==
 
-event-source-polyfill@^1.0.25:
-  version "1.0.26"
-  resolved "https://registry.npmjs.org/event-source-polyfill/-/event-source-polyfill-1.0.26.tgz#86c04d088ef078279168eefa028f928fec5059a4"
-  integrity sha512-IwDLs9fUTcGAyacHBeS53T8wcEkDyDn0UP4tfQqJ4wQP8AyH0mszuQf2ULTylnpI0sMquzJ4usrNV7+uztwI9A==
-
 event-stream@=3.3.4:
   version "3.3.4"
   resolved "https://registry.npmjs.org/event-stream/-/event-stream-3.3.4.tgz#4ab4c9a0f5a54db9338b4c34d86bfce8f4b35571"
@@ -15926,10 +15924,10 @@ json-parse-even-better-errors@^2.3.0, json-parse-even-better-errors@^2.3.1:
   resolved "https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz#7c47805a94319928e05777405dc12e1f7a4ee02d"
   integrity sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==
 
-json-pointer@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.npmjs.org/json-pointer/-/json-pointer-0.6.1.tgz#3c6caa6ac139e2599f5a1659d39852154015054d"
-  integrity sha512-3OvjqKdCBvH41DLpV4iSt6v2XhZXV1bPB4OROuknvUXI7ZQNofieCPkmE26stEJ9zdQuvIxDHCuYhfgxFAAs+Q==
+json-pointer@0.6.2:
+  version "0.6.2"
+  resolved "https://registry.npmjs.org/json-pointer/-/json-pointer-0.6.2.tgz#f97bd7550be5e9ea901f8c9264c9d436a22a93cd"
+  integrity sha512-vLWcKbOaXlO+jvRy4qNd+TI1QUPZzfJj1tpJ3vAXDych5XJf93ftpUKe5pKCrzyIIwgBJcOcCVRUfqQP25afBw==
   dependencies:
     foreach "^2.0.4"
 
@@ -17246,10 +17244,10 @@ markdown-table@^3.0.0:
   resolved "https://registry.npmjs.org/markdown-table/-/markdown-table-3.0.1.tgz#88c48957aaf2a8014ccb2ba026776a1d736fe3dc"
   integrity sha512-CBbaYXKSGnE1uLRpKA1SWgIRb2PQrpkllNWpZtZe6VojOJ4ysqiq7/2glYcmKsOYN09QgH/HEBX5hIshAeiK6A==
 
-marked@^4.0.10:
-  version "4.0.10"
-  resolved "https://registry.npmjs.org/marked/-/marked-4.0.10.tgz#423e295385cc0c3a70fa495e0df68b007b879423"
-  integrity sha512-+QvuFj0nGgO970fySghXGmuw+Fd0gD2x3+MqCWLIPf5oxdv1Ka6b2q+z9RP01P/IaKPMEramy+7cNy/Lw8c3hw==
+marked@^4.0.14:
+  version "4.2.3"
+  resolved "https://registry.npmjs.org/marked/-/marked-4.2.3.tgz#bd76a5eb510ff1d8421bc6c3b2f0b93488c15bea"
+  integrity sha512-slWRdJkbTZ+PjkyJnE30Uid64eHwbwa1Q25INCAYfZlK4o6ylagBy/Le9eWntqJFoFT93ikUKMv47GZ4gTwHkw==
 
 match-sorter@^6.0.2:
   version "6.3.1"
@@ -18991,13 +18989,13 @@ open@^8.0.0, open@^8.0.9, open@^8.4.0:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
-openapi-sampler@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/openapi-sampler/-/openapi-sampler-1.1.1.tgz#7bba7000a03cd8a4630bfbe5b3ef258990c78400"
-  integrity sha512-WAFsl5SPYuhQwaMTDFOcKhnEY1G1rmamrMiPmJdqwfl1lr81g63/befcsN9BNi0w5/R0L+hfcUj13PANEBeLgg==
+openapi-sampler@^1.2.1:
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/openapi-sampler/-/openapi-sampler-1.3.0.tgz#5b99ceb4156b00d2aa3f860e52ccb768a5695793"
+  integrity sha512-2QfjK1oM9Sv0q82Ae1RrUe3yfFmAyjF548+6eAeb+h/cL1Uj51TW4UezraBEvwEdzoBgfo4AaTLVFGTKj+yYDw==
   dependencies:
     "@types/json-schema" "^7.0.7"
-    json-pointer "^0.6.1"
+    json-pointer "0.6.2"
 
 openid-client@^4.1.1:
   version "4.9.0"
@@ -20992,6 +20990,11 @@ react-hot-loader@^4.13.0:
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.1.0"
     source-map "^0.7.3"
+
+react-icons@^4.4.0:
+  version "4.6.0"
+  resolved "https://registry.npmjs.org/react-icons/-/react-icons-4.6.0.tgz#f83eda179af5d02c047449a20b702c858653d397"
+  integrity sha512-rR/L9m9340yO8yv1QT1QurxWQvWpbNHqVX0fzMln2HEb9TEIrQRGsqiNFQfiv9/JEUbyHmHPlNTB2LWm2Ttz0g==
 
 react-immutable-proptypes@2.2.0:
   version "2.2.0"
@@ -24789,10 +24792,10 @@ use-memo-one@^1.1.1:
   resolved "https://registry.npmjs.org/use-memo-one/-/use-memo-one-1.1.1.tgz#39e6f08fe27e422a7d7b234b5f9056af313bd22c"
   integrity sha512-oFfsyun+bP7RX8X2AskHNTxu+R3QdE/RC5IefMbqptmACAA/gfol1KDD5KRzPsGMa62sWxGZw+Ui43u6x4ddoQ==
 
-use-resize-observer@^7.0.0:
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/use-resize-observer/-/use-resize-observer-7.1.0.tgz#709ea7540fbe0a60ceae41ee2bef933d7782e4d4"
-  integrity sha512-6DGWOnZpjAGP/MtslGg7OunZptyueQduMi0i8DC5nVKXtJ8Bdt0wR/1tSxugFRndzYCi/jtD+SlNs5PK8ijvXQ==
+use-resize-observer@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.npmjs.org/use-resize-observer/-/use-resize-observer-8.0.0.tgz#69bd80c1ddd94f3758563fe107efb25fed85067a"
+  integrity sha512-n0iKSeiQpJCyaFh5JA0qsVLBIovsF4EIIR1G6XiBwKJN66ZrD4Oj62bjcuTAATPKiSp6an/2UZZxCf/67fk3sQ==
   dependencies:
     "@juggle/resize-observer" "^3.3.1"
 
